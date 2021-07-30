@@ -17,7 +17,7 @@ namespace BM.UnitTests
         private readonly CalendarController _calendarController;
         private readonly Mock<IUserRepository> _userRepository;
         private readonly Mock<ISlotRepository> _slotRepository;
-        private Mock<IMapper> _mapper;
+        private readonly Mock<IMapper> _mapper;
 
         public CalendarControllerTests()
         {
