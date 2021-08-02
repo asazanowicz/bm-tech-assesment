@@ -65,6 +65,6 @@ To execute migration in Shell:
 - Automapper uses to map entities and dto models 
 - Serilog as a logging projede to log to json files.
 - Dependency injection used to inject domain interfaces
-- Swagger Open API specification is available on 'api/swagger/BMAPISpecification/swagger.json'
+- Swagger Open API specification is available on 'api/swagger/BMAPISpecification/swagger.json' with /swagger/index.html
   
 The test project does not implement any authentication model and well as login functionality.
