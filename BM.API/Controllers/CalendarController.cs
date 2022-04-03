@@ -28,7 +28,8 @@ namespace BM.API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<SlotModel>> Get()
+        [Route("api/calendar/get")]
+        public ActionResult<string> Get()
         {
             return Ok("Hello dude!!!");
         }
