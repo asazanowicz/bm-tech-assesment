@@ -68,3 +68,4 @@ To execute migration in Shell:
 - Swagger Open API specification is available on 'api/swagger/BMAPISpecification/swagger.json' with /swagger/index.html
   
 The test project does not implement any authentication model and well as login functionality.
+
