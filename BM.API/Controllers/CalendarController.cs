@@ -27,14 +27,6 @@ namespace BM.API.Controllers
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        [HttpGet]
-        [Route("api/calendar/get")]
-        public ActionResult<string> Get()
-        {
-            return Ok("Hello dude!!!");
-        }
-
-
         /// <summary>
         /// Get calendar slot availability
         /// </summary>
